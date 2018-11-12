@@ -31,7 +31,7 @@ Laravel >= 5.4 version
         
 3. Run composer
 
-composer require wrogati/user-seed
+        composer require wrogati/user-seed
 
 # Usage
 
