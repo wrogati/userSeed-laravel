@@ -29,3 +29,20 @@ Laravel >= 5.4 version
         
         'US' => Wrogati\UserSeed\Controllers\UserSeedController::class,
         
+3. Run composer
+
+composer require wrogati/user-seed
+
+# Usage
+
+Run the command into terminal:
+
+#### IF you want english names use 'us'in the option, see the example below
+
+php artisan db:usseed --op=us
+
+
+#### IF you want portuguese names use 'pt'in the option, see the example below
+
+php artisan db:usseed --op=pt
+
